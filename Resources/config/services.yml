@@ -1,0 +1,18 @@
+services:
+    jgi.swedish_dates.red_day.chain:
+        class: JGI\SwedishDates\Date\RedDay\RedDayChain
+
+    jgi.swedish_dates.red_day.sunday:
+        class: JGI\SwedishDates\Date\RedDay\SundayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.christmas:
+        class: JGI\SwedishDates\Date\RedDay\ChristmasRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.datemanager:
+        class: JGI\SwedishDates\Manager\DateManager
+        arguments:
+            - @jgi.swedish_dates.red_day.chain

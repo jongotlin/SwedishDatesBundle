@@ -1,0 +1,55 @@
+
+services:
+    jgi.swedish_dates.red_day.chain:
+        class: JGI\SwedishDates\Date\RedDay\RedDayChain
+
+    jgi.swedish_dates.red_day.all_saints_day:
+        class: JGI\SwedishDates\Date\RedDay\AllSaintsDayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.ascension_day:
+        class: JGI\SwedishDates\Date\RedDay\AscensionDayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.christmas:
+        class: JGI\SwedishDates\Date\RedDay\ChristmasRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.easter_monday:
+        class: JGI\SwedishDates\Date\RedDay\EasterMondayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.easter_sunday:
+        class: JGI\SwedishDates\Date\RedDay\EasterSundayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.epiphany:
+        class: JGI\SwedishDates\Date\RedDay\EpiphanyRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.first_of_may:
+        class: JGI\SwedishDates\Date\RedDay\FirstOfMayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.national_day:
+        class: JGI\SwedishDates\Date\RedDay\NationalDayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.new_years_day:
+        class: JGI\SwedishDates\Date\RedDay\NewYearsDayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+
+    jgi.swedish_dates.red_day.sunday:
+        class: JGI\SwedishDates\Date\RedDay\SundayRule
+        tags:
+            -  { name: jgi.swedish_dates.red_day.rule }
+

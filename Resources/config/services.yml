@@ -1,10 +1,8 @@
 imports:
-    - { resource: red_day_services.yml }
-    - { resource: name_services.yml }
+    - { resource: day_services.yml }
 
 services:
     jgi.swedish_dates.datemanager:
         class: JGI\SwedishDates\Manager\DateManager
         arguments:
-            - @jgi.swedish_dates.red_day.chain
-            - @jgi.swedish_dates.name.chain
+            - @jgi.swedish_dates.day.chain

@@ -1,9 +1,0 @@
-
-services:
-    jgi.swedish_dates.name.chain:
-        class: JGI\SwedishDates\Date\Name\NameChain
-
-    jgi.swedish_dates.name.new_years_day:
-        class: JGI\SwedishDates\Date\Name\NewYearsDayName
-        tags:
-            -  { name: jgi.swedish_dates.name }

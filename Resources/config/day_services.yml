@@ -1,0 +1,59 @@
+
+services:
+    jgi.swedish_dates.day.chain:
+        class: JGI\SwedishDates\Date\DayChain
+
+    jgi.swedish_dates.day.all_saints_day:
+        class: JGI\SwedishDates\Date\AllSaintsDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.ascension_day:
+        class: JGI\SwedishDates\Date\AscensionDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.christmas_day:
+        class: JGI\SwedishDates\Date\ChristmasDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.boxing_day:
+        class: JGI\SwedishDates\Date\BoxingDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.easter_monday:
+        class: JGI\SwedishDates\Date\EasterMonday
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.easter_sunday:
+        class: JGI\SwedishDates\Date\EasterSunday
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.epiphany:
+        class: JGI\SwedishDates\Date\Epiphany
+        tags:
+            -  { name: jgi.swedish_dates.day.rule }
+
+    jgi.swedish_dates.day.first_of_may:
+        class: JGI\SwedishDates\Date\FirstOfMay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.national_day:
+        class: JGI\SwedishDates\Date\NationalDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.new_years_day:
+        class: JGI\SwedishDates\Date\NewYearsDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.sunday:
+        class: JGI\SwedishDates\Date\Sunday
+        tags:
+            -  { name: jgi.swedish_dates.day }

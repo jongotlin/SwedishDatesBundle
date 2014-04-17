@@ -11,7 +11,7 @@ Install with composer by adding this to your `composer.json`-file.
 ```
 Add the bundle to your AppKernel.
 ```php
-new JGI\SwedishDatesBundle(),
+new JGI\SwedishDatesBundle\JGISwedishDatesBundle(),
 ```
 
 ## Usage

@@ -28,6 +28,11 @@ services:
         tags:
             -  { name: jgi.swedish_dates.day }
 
+    jgi.swedish_dates.day.easter_eve:
+        class: JGI\SwedishDates\Date\EasterEve
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
     jgi.swedish_dates.day.easter_sunday:
         class: JGI\SwedishDates\Date\EasterSunday
         tags:

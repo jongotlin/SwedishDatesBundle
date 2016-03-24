@@ -5,7 +5,7 @@ SwedishDatesBundle
 
 Install with composer
 ```
-$ composer require jgi/swedish-dates-bundle`
+$ composer require jgi/swedish-dates-bundle
 ```
 
 Add the bundle to your AppKernel.

@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "jgi/swedish-dates": "dev-master"
+        "jgi/swedish-dates": "^1.0"
     },
     "autoload": {
         "psr-4": {

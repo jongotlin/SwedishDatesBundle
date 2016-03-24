@@ -3,12 +3,11 @@ SwedishDatesBundle
 
 ## Installation
 
-Install with composer by adding this to your `composer.json`-file.
+Install with composer
 ```
-"require":
-    ....
-    "jgi/swedish-dates-bundle": "dev-master"
+$ composer require jgi/swedish-dates-bundle`
 ```
+
 Add the bundle to your AppKernel.
 ```php
 new JGI\SwedishDatesBundle\JGISwedishDatesBundle(),

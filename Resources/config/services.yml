@@ -5,4 +5,4 @@ services:
     jgi.swedish_dates.datemanager:
         class: JGI\SwedishDates\Manager\DateManager
         arguments:
-            - @jgi.swedish_dates.day.chain
+            - "@jgi.swedish_dates.day.chain"

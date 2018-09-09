@@ -2,7 +2,17 @@ imports:
     - { resource: day_services.yml }
 
 services:
-    jgi.swedish_dates.datemanager:
+    JGI\SwedishDates\Manager\DateManager:
         class: JGI\SwedishDates\Manager\DateManager
         arguments:
-            - "@jgi.swedish_dates.day.chain"
+            - '@JGI\SwedishDates\Date\DayChain'
+
+    jgi.swedish_dates.datemanager:
+        alias: JGI\SwedishDates\Manager\DateManager
+
+    JGI\SwedishDatesBundle\Twig\TwigExtensions:
+        class: JGI\SwedishDatesBundle\Twig\TwigExtensions
+        arguments:
+            - '@JGI\SwedishDates\Manager\DateManager'
+        tags:
+            - { name: twig.extension }

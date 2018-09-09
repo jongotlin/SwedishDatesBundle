@@ -1,6 +1,6 @@
 {
     "name": "jgi/swedish-dates-bundle",
-    "description": "Symfony2 bundle for jgi/swedish-dates",
+    "description": "Symfony bundle for jgi/swedish-dates",
     "keywords": ["date", "sweden"],
     "license": "MIT",
     "authors": [
@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "jgi/swedish-dates": "^1.0"
+        "jgi/swedish-dates": "^1.0",
+        "twig/twig": "^2.0"
     },
     "autoload": {
         "psr-4": {

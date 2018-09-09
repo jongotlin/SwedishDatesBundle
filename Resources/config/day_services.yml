@@ -1,64 +1,150 @@
-
 services:
-    jgi.swedish_dates.day.chain:
+    JGI\SwedishDates\Date\DayChain:
         class: JGI\SwedishDates\Date\DayChain
 
-    jgi.swedish_dates.day.all_saints_day:
+    jgi.swedish_dates.day.chain:
+        alias: JGI\SwedishDates\Date\DayChain
+
+    JGI\SwedishDates\Date\AllSaintsDay:
         class: JGI\SwedishDates\Date\AllSaintsDay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.ascension_day:
+    jgi.swedish_dates.day.all_saints_day:
+        alias: JGI\SwedishDates\Date\AllSaintsDay
+
+    JGI\SwedishDates\Date\AscensionDay:
         class: JGI\SwedishDates\Date\AscensionDay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.christmas_day:
+    jgi.swedish_dates.day.ascension_day:
+        alias: JGI\SwedishDates\Date\AscensionDay
+
+    JGI\SwedishDates\Date\ChristmasDay:
         class: JGI\SwedishDates\Date\ChristmasDay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.boxing_day:
+    jgi.swedish_dates.day.christmas_day:
+        alias: JGI\SwedishDates\Date\ChristmasDay
+
+    JGI\SwedishDates\Date\ChristmasEve:
+        class: JGI\SwedishDates\Date\ChristmasEve
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.christmas_eve:
+        alias: JGI\SwedishDates\Date\ChristmasEve
+
+    JGI\SwedishDates\Date\BoxingDay:
         class: JGI\SwedishDates\Date\BoxingDay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.easter_monday:
+    jgi.swedish_dates.day.boxing_day:
+        alias: JGI\SwedishDates\Date\BoxingDay
+
+    JGI\SwedishDates\Date\EasterMonday:
         class: JGI\SwedishDates\Date\EasterMonday
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.easter_eve:
+    jgi.swedish_dates.day.easter_monday:
+        alias: JGI\SwedishDates\Date\EasterMonday
+
+    JGI\SwedishDates\Date\EasterEve:
         class: JGI\SwedishDates\Date\EasterEve
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.easter_sunday:
+    jgi.swedish_dates.day.easter_eve:
+        alias: JGI\SwedishDates\Date\EasterEve
+
+    JGI\SwedishDates\Date\EasterSunday:
         class: JGI\SwedishDates\Date\EasterSunday
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.epiphany:
+    jgi.swedish_dates.day.easter_sunday:
+        alias: JGI\SwedishDates\Date\EasterSunday
+
+    JGI\SwedishDates\Date\Epiphany:
         class: JGI\SwedishDates\Date\Epiphany
         tags:
             -  { name: jgi.swedish_dates.day.rule }
 
-    jgi.swedish_dates.day.first_of_may:
+    jgi.swedish_dates.day.epiphany:
+        alias: JGI\SwedishDates\Date\Epiphany
+
+    JGI\SwedishDates\Date\FirstOfMay:
         class: JGI\SwedishDates\Date\FirstOfMay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.national_day:
+    jgi.swedish_dates.day.first_of_may:
+        alias: JGI\SwedishDates\Date\FirstOfMay
+
+    JGI\SwedishDates\Date\GoodFriday:
+        class: JGI\SwedishDates\Date\GoodFriday
+        tags:
+            -  { name: jgi.swedish_dates.day.rule }
+
+    jgi.swedish_dates.day.good_friday:
+        alias: JGI\SwedishDates\Date\GoodFriday
+
+    JGI\SwedishDates\Date\MidsummerDay:
+        class: JGI\SwedishDates\Date\MidsummerDay
+        tags:
+            -  { name: jgi.swedish_dates.day.rule }
+
+    jgi.swedish_dates.day.midsummer_day:
+        alias: JGI\SwedishDates\Date\MidsummerDay
+
+    JGI\SwedishDates\Date\MidsummerEve:
+        class: JGI\SwedishDates\Date\MidsummerEve
+        tags:
+            -  { name: jgi.swedish_dates.day.rule }
+
+    jgi.swedish_dates.day.midsummer_eve:
+        alias: JGI\SwedishDates\Date\MidsummerEve
+
+    JGI\SwedishDates\Date\NationalDay:
         class: JGI\SwedishDates\Date\NationalDay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.new_years_day:
+    jgi.swedish_dates.day.national_day:
+        alias: JGI\SwedishDates\Date\NationalDay
+
+    JGI\SwedishDates\Date\NewYearsDay:
         class: JGI\SwedishDates\Date\NewYearsDay
         tags:
             -  { name: jgi.swedish_dates.day }
 
-    jgi.swedish_dates.day.sunday:
+    jgi.swedish_dates.day.new_years_day:
+        alias: JGI\SwedishDates\Date\NewYearsDay
+
+    JGI\SwedishDates\Date\NewYearsEve:
+        class: JGI\SwedishDates\Date\NewYearsEve
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.new_years_eve:
+        alias: JGI\SwedishDates\Date\NewYearsEve
+
+    JGI\SwedishDates\Date\Pentecost:
+        class: JGI\SwedishDates\Date\Pentecost
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.pentecost:
+        alias: JGI\SwedishDates\Date\Pentecost
+
+    JGI\SwedishDates\Date\Sunday:
         class: JGI\SwedishDates\Date\Sunday
         tags:
             -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.sunday:
+        alias: JGI\SwedishDates\Date\Sunday

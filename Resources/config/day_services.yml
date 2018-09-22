@@ -148,3 +148,138 @@ services:
 
     jgi.swedish_dates.day.sunday:
         alias: JGI\SwedishDates\Date\Sunday
+
+    JGI\SwedishDates\Date\AshWednesday:
+        class: JGI\SwedishDates\Date\AshWednesday
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\DaylightSavingTimeStart:
+        class: JGI\SwedishDates\Date\DaylightSavingTimeStart
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\DaylightSavingTimeStop:
+        class: JGI\SwedishDates\Date\DaylightSavingTimeStop
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\DefenselessChildDay:
+        class: JGI\SwedishDates\Date\DefenselessChildDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\ElectionDay:
+        class: JGI\SwedishDates\Date\ElectionDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\EpiphanyEve:
+        class: JGI\SwedishDates\Date\EpiphanyEve
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\FathersDay:
+        class: JGI\SwedishDates\Date\FathersDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\FirstOfAdvent:
+        class: JGI\SwedishDates\Date\FirstOfAdvent
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\FourthOfAdvent:
+        class: JGI\SwedishDates\Date\FourthOfAdvent
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\InternationalChildrensDay:
+        class: JGI\SwedishDates\Date\InternationalChildrensDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\InternationalWomensDay:
+        class: JGI\SwedishDates\Date\InternationalWomensDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\LuciaDay:
+        class: JGI\SwedishDates\Date\LuciaDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\MothersDay:
+        class: JGI\SwedishDates\Date\MothersDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\NationalDayOfTheRomans:
+        class: JGI\SwedishDates\Date\NationalDayOfTheRomans
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\NobelDay:
+        class: JGI\SwedishDates\Date\NobelDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\PentecostEve:
+        class: JGI\SwedishDates\Date\PentecostEve
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\SamiNationalDay:
+        class: JGI\SwedishDates\Date\SamiNationalDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\SecondOfAdvent:
+        class: JGI\SwedishDates\Date\SecondOfAdvent
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\ShroveTuesday:
+        class: JGI\SwedishDates\Date\ShroveTuesday
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\ThirdOfAdvent:
+        class: JGI\SwedishDates\Date\ThirdOfAdvent
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\TwentiethDayYule:
+        class: JGI\SwedishDates\Date\TwentiethDayYule
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\UNDay:
+        class: JGI\SwedishDates\Date\UNDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\ValentinesDay:
+        class: JGI\SwedishDates\Date\ValentinesDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\VernalEquinox:
+        class: JGI\SwedishDates\Date\VernalEquinox
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\WaffleDay:
+        class: JGI\SwedishDates\Date\WaffleDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\WalpurgisNight:
+        class: JGI\SwedishDates\Date\WalpurgisNight
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\WorldEnvironmentDay:
+        class: JGI\SwedishDates\Date\WorldEnvironmentDay
+        tags:
+            -  { name: jgi.swedish_dates.day }

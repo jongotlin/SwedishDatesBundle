@@ -141,14 +141,6 @@ services:
     jgi.swedish_dates.day.pentecost:
         alias: JGI\SwedishDates\Date\Pentecost
 
-    JGI\SwedishDates\Date\Sunday:
-        class: JGI\SwedishDates\Date\Sunday
-        tags:
-            -  { name: jgi.swedish_dates.day }
-
-    jgi.swedish_dates.day.sunday:
-        alias: JGI\SwedishDates\Date\Sunday
-
     JGI\SwedishDates\Date\AshWednesday:
         class: JGI\SwedishDates\Date\AshWednesday
         tags:
@@ -283,3 +275,13 @@ services:
         class: JGI\SwedishDates\Date\WorldEnvironmentDay
         tags:
             -  { name: jgi.swedish_dates.day }
+
+    # Sunday must be last
+    JGI\SwedishDates\Date\Sunday:
+        class: JGI\SwedishDates\Date\Sunday
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    jgi.swedish_dates.day.sunday:
+        alias: JGI\SwedishDates\Date\Sunday
+

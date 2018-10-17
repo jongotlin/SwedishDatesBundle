@@ -49,6 +49,6 @@ class TwigExtensions extends AbstractExtension
      */
     public function holiday(\DateTimeInterface $date)
     {
-        return $this->dateManager->getDate($date)->isRedDay();
+        return $this->dateManager->getDate($date)->isHoliday();
     }
 }

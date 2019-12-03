@@ -72,7 +72,7 @@ services:
     JGI\SwedishDates\Date\Epiphany:
         class: JGI\SwedishDates\Date\Epiphany
         tags:
-            -  { name: jgi.swedish_dates.day.rule }
+            -  { name: jgi.swedish_dates.day }
 
     jgi.swedish_dates.day.epiphany:
         alias: JGI\SwedishDates\Date\Epiphany
@@ -88,7 +88,7 @@ services:
     JGI\SwedishDates\Date\GoodFriday:
         class: JGI\SwedishDates\Date\GoodFriday
         tags:
-            -  { name: jgi.swedish_dates.day.rule }
+            -  { name: jgi.swedish_dates.day }
 
     jgi.swedish_dates.day.good_friday:
         alias: JGI\SwedishDates\Date\GoodFriday
@@ -96,7 +96,7 @@ services:
     JGI\SwedishDates\Date\MidsummerDay:
         class: JGI\SwedishDates\Date\MidsummerDay
         tags:
-            -  { name: jgi.swedish_dates.day.rule }
+            -  { name: jgi.swedish_dates.day }
 
     jgi.swedish_dates.day.midsummer_day:
         alias: JGI\SwedishDates\Date\MidsummerDay
@@ -104,7 +104,7 @@ services:
     JGI\SwedishDates\Date\MidsummerEve:
         class: JGI\SwedishDates\Date\MidsummerEve
         tags:
-            -  { name: jgi.swedish_dates.day.rule }
+            -  { name: jgi.swedish_dates.day }
 
     jgi.swedish_dates.day.midsummer_eve:
         alias: JGI\SwedishDates\Date\MidsummerEve

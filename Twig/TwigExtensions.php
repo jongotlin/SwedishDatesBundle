@@ -29,6 +29,7 @@ class TwigExtensions extends AbstractExtension
         return [
             new TwigFilter('date_name', [$this, 'dateName']),
             new TwigFilter('holiday', [$this, 'holiday']),
+            new TwigFilter('red_day', [$this, 'redDay']),
         ];
     }
 
@@ -50,5 +51,15 @@ class TwigExtensions extends AbstractExtension
     public function holiday(\DateTimeInterface $date)
     {
         return $this->dateManager->getDate($date)->isHoliday();
+    }
+
+    /**
+     * @param \DateTimeInterface $date
+     *
+     * @return bool
+     */
+    public function redDay(\DateTimeInterface $date)
+    {
+        return $this->dateManager->getDate($date)->isRedDay();
     }
 }

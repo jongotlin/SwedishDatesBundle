@@ -281,6 +281,11 @@ services:
         tags:
             -  { name: jgi.swedish_dates.day }
 
+    JGI\SwedishDates\Date\Halloween:
+        class: JGI\SwedishDates\Date\Halloween
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
     # Sunday must be last
     JGI\SwedishDates\Date\Sunday:
         class: JGI\SwedishDates\Date\Sunday

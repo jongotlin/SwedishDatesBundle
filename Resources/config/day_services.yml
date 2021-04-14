@@ -286,6 +286,11 @@ services:
         tags:
             -  { name: jgi.swedish_dates.day }
 
+    JGI\SwedishDates\Date\JohnTheBaptistsDay:
+        class: JGI\SwedishDates\Date\JohnTheBaptistsDay
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
     # Sunday must be last
     JGI\SwedishDates\Date\Sunday:
         class: JGI\SwedishDates\Date\Sunday

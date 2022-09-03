@@ -291,6 +291,18 @@ services:
         tags:
             -  { name: jgi.swedish_dates.day }
 
+    JGI\SwedishDates\Date\AutumnalEquinox:
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\SummerSolstice:
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
+    JGI\SwedishDates\Date\WinterSolstice:
+        tags:
+            -  { name: jgi.swedish_dates.day }
+
     # Sunday must be last
     JGI\SwedishDates\Date\Sunday:
         class: JGI\SwedishDates\Date\Sunday
